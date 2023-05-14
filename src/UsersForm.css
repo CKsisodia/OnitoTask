@@ -1,0 +1,179 @@
+.userForm {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  max-width: 95%;
+  margin: 1rem auto;
+  background-color: #f8f8f8;
+  font-family: sans-serif;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p{
+  color: #DC143C;
+  font-size: 13px;
+}
+
+.asterisk {
+  color: red;
+}
+
+input,
+select {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #000000;
+}
+
+.pd-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.pd-row1 label {
+  margin-right: 2rem;
+}
+
+.pd-name input {
+  width: 25rem;
+}
+.pd-dob input {
+  width: 16rem;
+}
+.pd-dob {
+  display: flex;
+  align-items: flex-start;
+  margin-left: -2rem;
+}
+.pd-sex select {
+  width: 10rem;
+}
+
+.pd-row2 {
+  display: flex;
+  justify-content: space-between;
+}
+.pd-row2 label {
+  margin-right: 2rem;
+}
+.pd-mobile input {
+  width: 18rem;
+}
+.pd-id input {
+  width: 22rem;
+  margin-left: 0.7rem;
+}
+.pd-id select {
+  width: 14rem;
+}
+
+.pd-id label {
+  margin-right: 2.2rem;
+}
+
+.contactDetails {
+  display: flex;
+  gap: 2.4rem;
+}
+.contactDetails label {
+  margin-right: 1rem;
+}
+
+.cd-gaurdianDetails select {
+  width: 10rem;
+  margin-right: 0.8rem;
+}
+.cd-gaurdianDetails input {
+  width: 13rem;
+}
+
+.cd-email input {
+  width: 16rem;
+}
+
+.cd-emergencyContact {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ad-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.ad-row1 input {
+  width: 22rem;
+}
+.ad-row1 select {
+  width: 18rem;
+}
+.ad-row1 label {
+  margin-right: 2rem;
+}
+.ad-row2 {
+  display: flex;
+  gap: 4.8rem;
+}
+.ad-row2 label {
+  margin-right: 2.2rem;
+}
+.ad-row2 input {
+  width: 12rem;
+}
+.ad-row2 select {
+  width: 20rem;
+}
+
+.otherDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.otherDetails input {
+  width: 12rem;
+  margin-left: -2rem;
+}
+.otherDetails select {
+  width: 12rem;
+  margin-left: -2rem;
+}
+.od-nationality {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.od-nationality select {
+  width: 12.7rem;
+}
+
+.formButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+}
+.cancel {
+  border-color: red;
+  color: red;
+  padding: 0.8rem;
+  border-radius: 6px;
+}
+.submit {
+  border-color: green;
+  border-radius: 6px;
+  background-color: green;
+  padding: 0.8rem;
+  color: #fff;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
